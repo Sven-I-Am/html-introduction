@@ -1,0 +1,41 @@
+/***********/
+/* OVERALL */
+/**********/
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Sweden.jpg);
+}
+
+/**********/
+/* HEADER */
+/*********/
+header {
+    height: 140px;
+    background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+}
+header img {
+    border-radius: 50%;
+    height: 100px;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+header h1 {
+    align-self: center;
+}
+
+#previous {
+    margin-lef: 15px;
+    float: left;
+}
+
+#next {
+    float: right;
+    margin-right: 15px;
+}
+
+#selfie {
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+}
