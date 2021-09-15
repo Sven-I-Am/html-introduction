@@ -2,6 +2,20 @@
 /* OVERALL */
 /**********/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #333;
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
 body {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Sweden.jpg);
 }
@@ -9,33 +23,38 @@ body {
 /**********/
 /* HEADER */
 /*********/
+
 header {
-    height: 140px;
+    margin: 10px 10px 0 10px;
+    padding:15px;
+    height: 240px;
     background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
-}
-header img {
-    border-radius: 50%;
-    height: 100px;
-    margin-left: auto;
-    margin-top: 10px;
+    text-align: center;
 }
 
-header h1 {
-    align-self: center;
-}
 
 #previous {
-    margin-lef: 15px;
     float: left;
+    height: 50px;
 }
 
 #next {
     float: right;
-    margin-right: 15px;
+    height: 50px;
 }
 
 #selfie {
     display: block;
-    margin-left: auto;
-    margin-top: 15px;
+    margin: auto;
+    border-radius: 50%;
+    height: 100px;
 }
+
+header h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+
+
