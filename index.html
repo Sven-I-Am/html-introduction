@@ -11,22 +11,111 @@
 <body>
   <header>
     <div class="row">
-      <div class="col span-1-of-3">
-        <a href="#" ><img src="previous.png" alt="Roelandt" id="previous"></a>
+      <div class="col span-1-of-3" id="selfie">
+        <img src="Sven_Selfie.jpg" alt="you should not be seeing this." id="selfie_img">
       </div>
-      <div class="col span-1-of-3">
-        <img src="Sven_Selfie.jpg" alt="you should not be seeing this." id="selfie">
-      </div>
-      <div class="col span-1-of-3">
-        <a href="#" ><img src="next.png" alt="Jorg" id="next"></a>
-      </div>
-    </div>
-    <div class="row">
+      <div class="col span-1-of-3" id="header_text">
       <h1>Sven Vander Mierde</h1>
-      <p id="quote">Hope for the best, be prepared for the worst.</p>
+      <p id="quote">Some are born into their bodies, others have to fight for it.</p>
+      </div>
     </div>
   </header>
 
+  <section id="mainText">
+    <div class="row" id="meSentence">
+      <h2>I didn't realize who I was until I stopped being who I wasn't.</h2>
+    </div>
+    <div class="row">
+      <div class="col span-1-of-3 info">
+        <h3>Info</h3>
+        <table>
+          <tr>
+            <td>Birthday</td>
+            <td>08/05/1984</td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>male</td>
+          </tr>
+          <tr>
+            <td>Favorite color</td>
+            <td id="color">#of4c64</td>
+          </tr>
+          <tr>
+            <td>Favorite food</td>
+            <td>Homemade meatloaf with krieken</td>
+          </tr>
+          <tr>
+            <td>Pineapple on pizza?</td>
+            <td id="checkbox">
+              <input type="checkbox" id="option1" name="option1" value="Yes" checked>
+              <label for="option1">Yes</label><br>
+              <input type="checkbox" id="option2" name="option2" value="Oui" checked>
+              <label for="option2">Oui</label><br>
+              <input type="checkbox" id="option3" name="option3" value="Ja" checked>
+              <label for="option3">Ja</label><br>
+              <input type="checkbox" id="option4" name="option4" value="Si" checked>
+              <label for="option4">Si</label><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="col span-1-of-3 info">
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Hiking</li>
+          <li>Gaming
+            <ul id="games">
+              <li>Rimworld</li>
+              <li>Oxygen not included</li>
+              <li>Banished</li>
+            </ul>
+          </li>
+          <li>Gardening</li>
+        </ul>
+      </div>
+      <div class="col span-1-of-3 info" id="count">
+        <h3>You can count on me for</h3>
+        <p>nerd-outs, dad jokes and at random times I might come to class bearing cookies or cake, because my fiancé loves to bake and she doesn't do small portions.</p>
+        <p>I always have an Ubuntu boot-usb on me, and I'm also not half bad at Google-ing things.</p>
+      </div>
+    </div>
+
+    <div class="row" id="story">
+      <div class="row">
+        <h3>A short story</h3>
+        <p>
+          When I'm on my way home I'm used to getting a call from my fiancé and I always have my earbuds in.<br>
+          So I always pick up my phone with "Hi honey!".
+        </p>
+        <p>
+          Now, a while back, same thing, I'm on my way home, got my music playing in my ears and I hear my ringtone. So I pick up with a very chipper "hiya babe!"
+          And then a male voice answers: "Well, I don't usually get such an enthousiastic responce when I call my patients."
+          Turns out, it was my doctor calling to set up an appointment... Oops...
+        </p>
+      </div>
+      <div class="row" id="TLDR">
+        <h3>TLDR</h3>
+        <p>
+          When you call me after class, be prepared to be called honey, babe, sweetie or any other variation of those...
+        </p>
+      </div>
+    </div>
+
+
+  </section>
+
+  <footer>
+    <div class="col span-1-of-3">
+      <a href="https://christiaanvdw.github.io/html-introduction/" ><img src="previous.png" alt="Christiaan" id="previous"></a>
+    </div>
+    <div class="col span-1-of-3">
+      <p>Sven Vander Mierde</p>
+    </div>
+    <div class="col span-1-of-3">
+      <a href="https://jvondzerza.github.io/html-introduction/" ><img src="next.png" alt="Jorg" id="next"></a>
+    </div>
+  </footer>
 
 </body>
 </html>
